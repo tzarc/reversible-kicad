@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 5Way-Tactile_K1-1506DN-01
+F ~
+$ENDCMP
+#
 $CMP LCD-ILI9341-2.2in
 F ~
 $ENDCMP
