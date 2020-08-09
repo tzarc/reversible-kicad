@@ -12,10 +12,4 @@ $CMP OLED-SSD1306-128x64
 F ~
 $ENDCMP
 #
-$CMP SW_SP5T
-D Switch, five position, single pole quituple throw, 3 position switch, SP5T
-K switch sp5t ON-ON-ON-ON-ON
-F ~
-$ENDCMP
-#
 #End Doc Library
