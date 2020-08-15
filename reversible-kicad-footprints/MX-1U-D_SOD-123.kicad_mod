@@ -1,4 +1,4 @@
-(module MX-1U-D_SOD-123 (layer F.Cu) (tedit 5F30C260)
+(module MX-1U-D_SOD-123 (layer F.Cu) (tedit 5F375B13)
   (descr "1U SOD-123 Diode")
   (fp_text reference REF** (at 0 2.38125) (layer Dwgs.User)
     (effects (font (size 1 1) (thickness 0.15)))
