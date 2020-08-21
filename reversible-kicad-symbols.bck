@@ -1,14 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 5Way-Tactile_K1-1506DN-01
+$CMP SolderBridge_Open_X2
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
 F ~
 $ENDCMP
 #
-$CMP LCD-ILI9341-2.2in
-F ~
-$ENDCMP
-#
-$CMP OLED-SSD1306-128x64
+$CMP SolderJumper_2_Open_X2
+D Solder Jumper, 2-pole, open
+K solder jumper SPST
 F ~
 $ENDCMP
 #
