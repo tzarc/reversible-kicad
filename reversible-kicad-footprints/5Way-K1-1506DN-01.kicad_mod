@@ -103,8 +103,8 @@
   (pad 3 thru_hole circle (at -0.45 5.15) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -3.25 5.15) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad 6 smd custom (at 4.2 -4.2) (size 0.2 0.2) (layers B.Cu)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
+    (zone_connect 2)
+    (options (clearance convexhull) (anchor rect))
     (primitives
       (gr_poly (pts
          (xy 1.642 0.517) (xy 1.642 1.406) (xy 1.388 1.66) (xy 0.499 1.66) (xy 0.245 1.406)
@@ -113,8 +113,8 @@
          (xy 1.388 0.263)) (width 0.16))
     ))
   (pad 4 smd custom (at 0.95 -0.95) (size 0.2 0.2) (layers F.Cu)
-    (zone_connect 0)
-    (options (clearance outline) (anchor rect))
+    (zone_connect 2)
+    (options (clearance convexhull) (anchor rect))
     (primitives
       (gr_poly (pts
          (xy -4.887 -4.511) (xy -4.887 -3.876) (xy -4.506 -3.495) (xy -3.744 -3.495) (xy 3.495 3.871)
@@ -123,8 +123,8 @@
          (xy -4.506 -4.892)) (width 0.16))
     ))
   (pad 3 smd custom (at -1.778 3.81) (size 0.4 0.4) (layers F.Cu)
-    (zone_connect 0)
-    (options (clearance outline) (anchor circle))
+    (zone_connect 2)
+    (options (clearance convexhull) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -2.667 -0.254) (xy -0.508 -0.254) (xy 0.635 1.016) (xy 0.635 1.651) (xy 1.016 2.032)
@@ -133,7 +133,7 @@
          (xy -4.064 -0.889) (xy -4.064 -0.254) (xy -3.683 0.127) (xy -3.048 0.127)) (width 0.01))
     ))
   (pad 2 smd custom (at 2.032 3.937) (size 0.5 0.5) (layers F.Cu)
-    (options (clearance outline) (anchor circle))
+    (options (clearance convexhull) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.604 -3.81) (xy -6.985 -4.191) (xy -7.366 -4.191) (xy -7.874 -3.683) (xy -7.874 -3.302)
@@ -142,7 +142,7 @@
          (xy 1.778 0.635) (xy 0.889 0.508) (xy -3.429 -3.81)) (width 0.01))
     ))
   (pad 1 smd custom (at -2.54 -3.175) (size 0.5 0.5) (layers B.Cu)
-    (options (clearance outline) (anchor circle))
+    (options (clearance convexhull) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -1.905 -0.254) (xy -2.413 -0.889) (xy -2.794 -0.889) (xy -3.302 -0.381) (xy -3.302 0.254)
@@ -151,7 +151,7 @@
          (xy 1.397 -2.286) (xy 1.397 -1.651) (xy 1.651 -1.524) (xy 0.381 -0.254)) (width 0.01))
     ))
   (pad 5 smd custom (at 3.81 0.381) (size 0.5 0.5) (layers B.Cu)
-    (options (clearance outline) (anchor circle))
+    (options (clearance convexhull) (anchor circle))
     (primitives
       (gr_poly (pts
          (xy -6.223 4.572) (xy -6.223 4.953) (xy -6.731 5.461) (xy -7.493 5.461) (xy -7.874 4.953)
