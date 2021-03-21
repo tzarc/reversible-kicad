@@ -1,6 +1,5 @@
-(module TestPoint (layer F.Cu) (tedit 60557C5F)
+(module TestPoint (layer F.Cu) (tedit 60573F9F)
   (tags "test point plated hole")
-  (attr virtual)
   (fp_text reference REF** (at 0 -1) (layer Dwgs.User) hide
     (effects (font (size 0.2 0.2) (thickness 0.05)))
   )
