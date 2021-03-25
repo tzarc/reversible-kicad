@@ -1,4 +1,5 @@
-(module PushButton_4.5mm_Cutout (layer F.Cu) (tedit 5F56A68B)
+(module PushButton_4.5mm_Cutout (layer F.Cu) (tedit 605BD923)
+  (attr virtual)
   (fp_text reference REF** (at 0 -2.1) (layer F.SilkS) hide
     (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
   )
